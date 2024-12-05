@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <head>
-<style>
-    header {
-        background-color: crimson;
-        border-radius: 12px;
-        text-align: center;
-    }
-    p {
-        text-align: justify;
-    }
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        header {
+            background-color: crimson;
+            border-radius: 12px;
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+        .sidenav {
+            height: 100%;
+            width: 160px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .main {
+            margin-left: 160px; /* Same as the width of the sidenav */
+            font-size: 28px; /* Increased text to enable scrolling */
+            padding: 0px 10px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+        }
 </style>
 </head>
 
@@ -19,6 +54,10 @@
 </header>
 
 <body>
+    <div class="sidenav">
+        <a href="/resources/">Resources</a>
+    </div>
+    <div class="main">
     <p>
         The Crimson Valley (aka Chasaia) is one of four countries 
         of Seikar. It is one of the most influential countries in 
@@ -107,4 +146,6 @@
         Iron Dunes, Funeral Planes, and Void Zones. These biomes 
         are primarily a result of the Planar Wars. 
     </p>
+
+</div>
 </body>
