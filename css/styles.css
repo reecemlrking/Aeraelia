@@ -32,8 +32,10 @@ p {
 
 .main {
     margin-left: 160px; /* Same as the width of the sidenav */
+    margin-right: 160px; /* Bound width of main*/
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
+    
 }
 
 @media screen and (max-height: 450px) {
