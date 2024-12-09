@@ -9,13 +9,14 @@
     <div class="header">
         <a href="#default" class="logo">Chasaia</a>
         <div class="header-right">
-          <a class="openbtn" onclick="openNav()">Directory</a>
+          <button class="openbtn" onclick="openNav()">Directory</button>
         </div>
       </div>
 </header>
 
 <body>
-    <div class="sidenav">
+    <div id="sideNav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="./resources/">Resources</a>
     </div>
     <div class="main">
