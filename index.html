@@ -9,16 +9,20 @@
     <link type="text/css" href="/Aeraelia/css/styles.css" rel="stylesheet">
 </head>
 
-<body>
+<header>
     <div class="header">
         <a href="#default" class="logo">Aeraelia: A 5th Edition Campaign Setting</a>
         <div class="header-right">
-          <a class="active" href="#home">Home</a>
+            <button class="openbtn" onclick="openNav()">Directory</button>
         </div>
     </div>
+</header>
 
-    <div class="sidenav">
-        <a href="./continents/seikar/chasaia">Chasaia</a>
+<body>
+    <div id="sideNav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="/Aeraelia/continents/seikar/chasaia">Chasaia</a>
+        <a href="/Aeraelia/continents/seikar/chasaia/resources/">Resources</a>
     </div>
     <div class="main">
         <p>
