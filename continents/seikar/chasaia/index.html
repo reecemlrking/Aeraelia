@@ -31,6 +31,23 @@
         </div>
     </div>
     <div id="main" class="main">
+        <script>
+            var dropdown = document.getElementsByClassName("dropdown-btn");
+            var i;
+
+            for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+                } else {
+                dropdownContent.style.display = "block";
+                }
+            });
+            }
+        </script>
+
     <p>
         The Crimson Valley (aka Chasaia) is one of four countries 
         of Seikar. It is one of the most influential countries in 
