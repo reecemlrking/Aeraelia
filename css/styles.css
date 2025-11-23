@@ -6,6 +6,12 @@ header {
 p {
     text-align: justify;
 }
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url('../assets/images/page_background.jpg');
 }
