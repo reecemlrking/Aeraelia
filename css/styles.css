@@ -1,6 +1,5 @@
 header {
     background-color: crimson;
-    border-radius: 12px;
     text-align: center;
 }
 p {
@@ -65,20 +64,20 @@ body {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
+}
   
-  .openbtn {
+.openbtn {
     font-size: 20px;
     cursor: pointer;
     background-color: #111;
     color: white;
     padding: 10px 15px;
     border: none;
-  }
+}
   
-  .openbtn:hover {
+.openbtn:hover {
     background-color: #444;
-  }
+}
 
 .main {
     /* margin-left: 160px; Same as the width of the sidenav */
@@ -93,9 +92,9 @@ body {
     .sidenav a {font-size: 18px;}
 }
 
-/* Style the header with a grey background and some padding */
+/* Style the header with a red background and some padding */
 .header {
-    margin-left: 30px;
+    margin-left: 2em;
     overflow: hidden;
     background-color: crimson;
     padding: 20px 10px;
