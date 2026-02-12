@@ -1,5 +1,6 @@
 console.log(getElementById('main').style.marginRight);
 function openNav() {
+	console.log("hello");
 	console.log(getElementById('main').style.marginRight);
 	document.getElementById("sideNav").style.width = "200px";
 	document.getElementById("main").style.marginRight = "200px";
