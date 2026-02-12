@@ -168,6 +168,6 @@ body {
 .world-map-inline {
 	display: block;
 	margin: auto;
-	width: 5px;
-	height: 5em;
+	width: 50px;
+	height: 50px;
 }
