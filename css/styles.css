@@ -90,7 +90,7 @@ body {
 	/* margin-right: 160px; Bound width of main */
 	font-size: 28px;
 	/* Increased text to enable scrolling */
-	padding: 0px 10px;
+	padding: 5px 10px;
 	background-color: bisque;
 }
 
@@ -168,6 +168,6 @@ body {
 .world-map-inline {
 	display: block;
 	margin: auto;
-	width: 50px;
-	height: 50px;
+	width: 5em;
+	height: 5em;
 }
