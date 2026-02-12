@@ -166,7 +166,8 @@ body {
 }
 
 .world-map-inline {
-	text-align: center;
-	width: 5em;
+	display: block;
+	margin: auto;
+	width: 5px;
 	height: 5em;
 }
