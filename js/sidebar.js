@@ -1,4 +1,3 @@
-console.log(getElementById('main').style.marginRight);
 function openNav() {
 	console.log("hello");
 	console.log(getElementById('main').style.marginRight);
